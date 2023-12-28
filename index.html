@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+
+   
+    <style>
+     
+.container {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column size as needed */
+    grid-auto-flow: row; /* Ensure new items added flow in rows */
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Your existing styles for inner-div-1, img, inner-div-2, input[type="file"], select, button, .fileInput, .remove-button */
+
+}
+
+.inner-div-1 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.inner-div-2 {
+    margin: auto;
+    border: 2px solid black;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+   
+}
+
+input[type="file"],
+select,
+button {
+    margin-left: 0; 
+    margin-top: 10px; 
+    padding: 8px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-right: 15px;
+}
+button{
+    margin-left: 335px;
+    display: flex;
+   
+    text-align: center;
+    background-color: green;
+    width: 100px;
+    color:beige;
+}
+
+.fileInput {
+    margin-top: 10px; 
+}
+  
+.remove-button {
+    background-color: red; /* Sets the text color to red */
+    /* You can add more styles here if needed */
+}
+    </style>
+<head>
+  
+
+    
+   
+</head>
+<body>
+
+    <div class="container">
+       
+        <div class="inner-div-2">
+            <div class="inner-div-1" ></div>
+            
+            <input type="file" class="fileInput">
+
+            <select id="dropdown" class="type">
+                <option selected value="Primary">Primary</option>
+                <option  value="Secondary">Secondary</option>
+            </select>
+              
+        </div>
+    </div>
+    <button  class="addAnother">Add Another</button>
+
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script>
+       
+      </script>
+</body>
+</html>
